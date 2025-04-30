@@ -126,13 +126,13 @@ $this->section('body');
                                 <td>${student.student_course}</td>
                                 <td class="text-center">
                                     <a href="<?= base_url('students/show/') ?>${student.id}" class="btn btn-info btn-sm">
-                                        <i class="bi bi-eye"></i> View
+                                        <i class="fas fa-eye"></i>
                                     </a>
                                     <a href="<?= base_url('students/edit/') ?>${student.id}" class="btn btn-warning btn-sm">
-                                        <i class="bi bi-pencil"></i> Edit
+                                        <i class="fas fa-edit"></i>
                                     </a>
                                     <a href="<?= base_url('students/delete/') ?>${student.id}" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to remove this student from the list?');">
-                                        <i class="bi bi-trash"></i> Delete
+                                        <i class="fas fa-trash-alt"></i>
                                     </a>
                                 </td>
                             </tr>
