@@ -9,7 +9,7 @@ use CodeIgniter\Router\RouteCollection;
 
 //  $routes->get('/', 'Home::index');
 
- 
+
 
 //students
 $routes->get('/', 'Home::index');

@@ -13,7 +13,7 @@ $this->section('body');
                 <?= session()->getFlashdata('success') ?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
-        <?php endif; ?>
+        <?php endif; ?> 
 
         <!-- Page Header -->
         <div class="d-flex justify-content-between align-items-center mb-4">
